@@ -7,7 +7,7 @@ import fetchWeather from "./api/api";
 import "./App.css";
 const useStyles = makeStyles({
   root: {
-    background: "#2193b0" /* fallback for old browsers */,
+    // background: "#2193b0" /* fallback for old browsers */,
     // background:
     //   "-webkit-linear-gradient(to right, #6dd5ed, #2193b0)" /* Chrome 10-25, Safari 5.1-6 */,
     background:
