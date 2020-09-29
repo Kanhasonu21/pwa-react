@@ -10,11 +10,15 @@ body,
 
 .main-container {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418)),
-    url("https://images.theconversation.com/files/232705/original/file-20180820-30593-1nxanpj.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=496&fit=clip");
+    url(./578946_stormy-weather-wallpapers-hd-wallpaper-backgrounds-of-your-choice_1989x1080_h.jpg);
   background-size: cover;
   background-position: center;
 }
-
+.search {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
 .main-container {
   height: 100%;
   display: flex;
@@ -38,7 +42,7 @@ body,
 }
 .search__input > input {
   flex: 1;
-  padding:10px 30px;
+  padding: 10px 30px;
   font-size: medium;
   border: none;
 }
@@ -50,7 +54,7 @@ body,
   color: gray;
 }
 .city {
-    margin-top: 80px;
+  margin-top: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -113,7 +117,7 @@ p {
   flex-direction: column;
   align-items: center;
 }
-.error{
+.error {
   color: greenyellow;
   font-weight: bolder;
 }

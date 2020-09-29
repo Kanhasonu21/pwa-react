@@ -12,7 +12,6 @@ const fetchWeather = async (query) => {
       },
     })
     .then((res) => {
-      console.log(res.status)
       return res
     }).catch(err=> console.log(err))
   return response;
